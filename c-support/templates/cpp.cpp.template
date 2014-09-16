@@ -158,25 +158,25 @@ ios::|PICK|<CURSOR>
 // =====================================================================================
 class |CLASSNAME|
 {
-	public:
-		// ====================  LIFECYCLE     ======================================= 
-		|CLASSNAME| ();                             // constructor 
+    public:
+        // ====================  LIFECYCLE     ======================================= 
+        |CLASSNAME| ();                             // constructor 
 
-		// ====================  ACCESSORS     ======================================= 
+        // ====================  ACCESSORS     ======================================= 
 
-		// ====================  MUTATORS      ======================================= 
+        // ====================  MUTATORS      ======================================= 
 
-		// ====================  OPERATORS     ======================================= 
+        // ====================  OPERATORS     ======================================= 
 
-	protected:
-		// ====================  METHODS       ======================================= 
+    protected:
+        // ====================  METHODS       ======================================= 
 
-		// ====================  DATA MEMBERS  ======================================= 
+        // ====================  DATA MEMBERS  ======================================= 
 
-	private:
-		// ====================  METHODS       ======================================= 
+    private:
+        // ====================  METHODS       ======================================= 
 
-		// ====================  DATA MEMBERS  ======================================= 
+        // ====================  DATA MEMBERS  ======================================= 
 
 }; // -----  end of class |CLASSNAME|  ----- 
 
@@ -193,23 +193,23 @@ class |CLASSNAME|
     |CLASSNAME| ( const |CLASSNAME| &other );   // copy constructor 
     ~|CLASSNAME| ();                            // destructor       
 
-		// ====================  ACCESSORS     ======================================= 
+        // ====================  ACCESSORS     ======================================= 
 
-		// ====================  MUTATORS      ======================================= 
+        // ====================  MUTATORS      ======================================= 
 
-		// ====================  OPERATORS     ======================================= 
+        // ====================  OPERATORS     ======================================= 
 
     |CLASSNAME|& operator = ( const |CLASSNAME| &other ); // assignment operator 
 
   protected:
-		// ====================  METHODS       ======================================= 
+        // ====================  METHODS       ======================================= 
 
-		// ====================  DATA MEMBERS  ======================================= 
+        // ====================  DATA MEMBERS  ======================================= 
 
   private:
-		// ====================  METHODS       ======================================= 
+        // ====================  METHODS       ======================================= 
 
-		// ====================  DATA MEMBERS  ======================================= 
+        // ====================  DATA MEMBERS  ======================================= 
 
 }; // -----  end of class |CLASSNAME|  ----- 
 
@@ -225,19 +225,19 @@ class |CLASSNAME|
     // ====================  LIFECYCLE     ======================================= 
     |CLASSNAME| ();                             // constructor 
 
-		// ====================  ACCESSORS     ======================================= 
+        // ====================  ACCESSORS     ======================================= 
 
-		// ====================  MUTATORS      ======================================= 
+        // ====================  MUTATORS      ======================================= 
 
-		// ====================  OPERATORS     ======================================= 
+        // ====================  OPERATORS     ======================================= 
 
   protected:
-		// ====================  METHODS       ======================================= 
+        // ====================  METHODS       ======================================= 
 
     // ====================  DATA MEMBERS  ======================================= 
 
   private:
-		// ====================  METHODS       ======================================= 
+        // ====================  METHODS       ======================================= 
 
     // ====================  DATA MEMBERS  ======================================= 
 
@@ -254,29 +254,29 @@ class |CLASSNAME|
 {
   public:
     // ====================  LIFECYCLE     =======================================
-    |CLASSNAME| ();                           // constructor      
-    |CLASSNAME| ( const |CLASSNAME| &other ); // copy constructor 
-    ~|CLASSNAME| ();                          // destructor       
+    |CLASSNAME| ();                           // constructor
+    |CLASSNAME| ( const |CLASSNAME| &other ); // copy constructor
+    ~|CLASSNAME| ();                          // destructor
 
-		// ====================  ACCESSORS     ======================================= 
+        // ====================  ACCESSORS     ======================================= 
 
-		// ====================  MUTATORS      ======================================= 
+        // ====================  MUTATORS      ======================================= 
 
-		// ====================  OPERATORS     ======================================= 
+        // ====================  OPERATORS     ======================================= 
 
     |CLASSNAME|& operator = ( const |CLASSNAME| &other ); // assignment operator 
 
   protected:
-		// ====================  METHODS       ======================================= 
+        // ====================  METHODS       ======================================= 
 
     // ====================  DATA MEMBERS  ======================================= 
 
   private:
-		// ====================  METHODS       ======================================= 
+        // ====================  METHODS       ======================================= 
 
     // ====================  DATA MEMBERS  ======================================= 
 
-}; // -----  end of template class |CLASSNAME|  ----- 
+}; // -----  end of template class |CLASSNAME|  -----
 
 == C++.error class == map:+ec, shortcut:e ==
 // =====================================================================================
@@ -289,7 +289,7 @@ class |CLASSNAME|
               virtual ~|CLASSNAME| ( )  { }
               virtual string what ( ) const throw ( )  { return message; }
   protected:  string  message;
-}; // -----  end of class |CLASSNAME|  ----- 
+}; // -----  end of class |CLASSNAME|  -----
 
 == C++.IMPLEMENTATION.class == map:+ic , shortcut:c ==
 //--------------------------------------------------------------------------------------
@@ -299,7 +299,7 @@ class |CLASSNAME|
 //--------------------------------------------------------------------------------------
 |CLASSNAME|::|CLASSNAME| ()
 {<CURSOR>
-}  // -----  end of method |CLASSNAME|::|CLASSNAME|  (constructor)  ----- 
+}  // -----  end of method |CLASSNAME|::|CLASSNAME|  (constructor)  -----
 
 == C++.IMPLEMENTATION.class using new == map:+icn , shortcut:n ==
 //--------------------------------------------------------------------------------------
@@ -309,7 +309,7 @@ class |CLASSNAME|
 //--------------------------------------------------------------------------------------
 |CLASSNAME|::|CLASSNAME| ()
 {<CURSOR>
-}  // -----  end of method |CLASSNAME|::|CLASSNAME|  (constructor)  ----- 
+}  // -----  end of method |CLASSNAME|::|CLASSNAME|  (constructor)  -----
 
 //--------------------------------------------------------------------------------------
 //       Class:  |CLASSNAME|
@@ -318,7 +318,7 @@ class |CLASSNAME|
 //--------------------------------------------------------------------------------------
 |CLASSNAME|::|CLASSNAME| ( const |CLASSNAME| &other )
 {
-}  // -----  end of method |CLASSNAME|::|CLASSNAME|  (copy constructor)  ----- 
+}  // -----  end of method |CLASSNAME|::|CLASSNAME|  (copy constructor)  -----
 
 //--------------------------------------------------------------------------------------
 //       Class:  |CLASSNAME|
@@ -337,7 +337,7 @@ class |CLASSNAME|
 |CLASSNAME|&
 |CLASSNAME|::operator = ( const |CLASSNAME| &other )
 {
-  if ( this != &other ) {
+  if (this != &other) {
   }
   return *this;
 }  // -----  end of method |CLASSNAME|::operator =  (assignment operator)  ----- 
@@ -346,8 +346,8 @@ class |CLASSNAME|
 void<CURSOR>
 |?CLASSNAME|::|?METHODNAME| ( <+argument_list+> )
 {
-	return ;
-}		// -----  end of method |CLASSNAME|::|?METHODNAME|  ----- 
+    return ;
+}        // -----  end of method |CLASSNAME|::|?METHODNAME|  ----- 
 
 == C++.IMPLEMENTATION.accessor == map:+ia , shortcut:a ==
 //--------------------------------------------------------------------------------------
@@ -357,8 +357,8 @@ void<CURSOR>
 inline |?RETURNTYPE|
 |CLASSNAME|::get_|ATTRIBUTE| (  ) const
 {
-	return |ATTRIBUTE|;
-}		// -----  end of method |CLASSNAME|::get_|ATTRIBUTE|  ----- 
+    return |ATTRIBUTE|;
+}        // -----  end of method |CLASSNAME|::get_|ATTRIBUTE|  ----- 
 
 //--------------------------------------------------------------------------------------
 //       Class:  |CLASSNAME|
@@ -367,9 +367,9 @@ inline |?RETURNTYPE|
 inline void
 |CLASSNAME|::set_|ATTRIBUTE| ( |RETURNTYPE| value )
 {
-	|ATTRIBUTE|	= value;
-	return ;
-}		// -----  end of method |CLASSNAME|::set_|ATTRIBUTE|  ----- 
+    |ATTRIBUTE|    = value;
+    return ;
+}        // -----  end of method |CLASSNAME|::set_|ATTRIBUTE|  ----- 
 <CURSOR>
 == C++.IMPLEMENTATION.template class == map:+itc , shortcut:c ==
 //--------------------------------------------------------------------------------------
@@ -429,8 +429,8 @@ template < class T >
 template < class T >
 void<CURSOR> |?CLASSNAME|<T>::|?METHODNAME| ( <+argument_list+> )
 {
-	return ;
-}		// -----  end of method |CLASSNAME|<T>::|METHODNAME|  ----- 
+    return ;
+}        // -----  end of method |CLASSNAME|<T>::|METHODNAME|  ----- 
 
 == C++.IMPLEMENTATION.template accessor == map:+ita , shortcut:a ==
 //--------------------------------------------------------------------------------------
@@ -440,8 +440,8 @@ void<CURSOR> |?CLASSNAME|<T>::|?METHODNAME| ( <+argument_list+> )
 template < class T >
 inline  |?RETURNTYPE| |CLASSNAME|<T>::get_|ATTRIBUTE| (  ) const
 {
-	return |ATTRIBUTE|;
-}		// -----  end of method |CLASSNAME|<T>::get_|ATTRIBUTE|  ----- 
+    return |ATTRIBUTE|;
+}        // -----  end of method |CLASSNAME|<T>::get_|ATTRIBUTE|  ----- 
 
 //--------------------------------------------------------------------------------------
 //       Class:  |CLASSNAME|
@@ -450,43 +450,43 @@ inline  |?RETURNTYPE| |CLASSNAME|<T>::get_|ATTRIBUTE| (  ) const
 template < class T >
 inline  void |CLASSNAME|<T>::set_|ATTRIBUTE| ( |RETURNTYPE| value )
 {
-	|ATTRIBUTE|	= value;
-	return ;
-}		// -----  end of method |CLASSNAME|<T>::set_|ATTRIBUTE|  ----- 
+    |ATTRIBUTE|    = value;
+    return ;
+}        // -----  end of method |CLASSNAME|<T>::set_|ATTRIBUTE|  ----- 
 
 == C++.template function == map:+tf, shortcut:f ==
 template <class T>
 void<CURSOR> |?TEMPALTE_FUNCTION_NAME| ( <+argument_list+> )
 {
-	return ;
-}		// -----  end of template function |?TEMPALTE_FUNCTION_NAME|  ----- 
+    return ;
+}        // -----  end of template function |?TEMPALTE_FUNCTION_NAME|  ----- 
 == C++.IMPLEMENTATION.operator, out == map:+ioo, shortcut:o ==
 ostream &
 operator << ( ostream &os, const |?CLASSNAME| &obj )
 {
-	os << obj.<CURSOR> ;
-	return os;
-}		// -----  end of function operator <<  ----- 
+    os << obj.<CURSOR> ;
+    return os;
+}        // -----  end of function operator <<  ----- 
 == C++.IMPLEMENTATION.operator, in == map:+ioi, shortcut:i ==
 istream &
 operator >> ( istream &is, |?CLASSNAME| &obj )
 {
-	is >> obj.<CURSOR> ;
-	return is;
-}		// -----  end of function operator >>  ----- 
+    is >> obj.<CURSOR> ;
+    return is;
+}        // -----  end of function operator >>  ----- 
 == C++.try catch == map:+tr, shortcut:t ==
 try {
 <SPLIT>}
-catch ( const <CURSOR> &ExceptObj ) {		// handle exception: 
+catch ( const <CURSOR> &ExceptObj ) {        // handle exception: 
 }
-catch (...) {		// handle exception: unspecified 
+catch (...) {        // handle exception: unspecified 
 }
 
 == C++.catch == map:+ca, shortcut:c ==
-catch ( const <CURSOR> &ExceptObj ) {		// handle exception: 
+catch ( const <CURSOR> &ExceptObj ) {        // handle exception: 
 <SPLIT>}
 == C++.catch all == map:+caa, shortcut:c ==
-catch (...) {		// handle exception: unspecified 
+catch (...) {        // handle exception: unspecified 
 <SPLIT>}
 == C++.extern C == map:+ex, shortcut:x ==
 extern "C" {<CURSOR>
@@ -497,8 +497,8 @@ ifstream  ifs;                                // create ifstream object
 
 ifs.open ( ifs_file_name.c_str() );           // open ifstream 
 if (!ifs) {
-	cerr << "\nERROR : failed to open input  file " << ifs_file_name << endl;
-	exit (EXIT_FAILURE);
+    cerr << "\nERROR : failed to open input  file " << ifs_file_name << endl;
+    exit (EXIT_FAILURE);
 }
 <SPLIT>{-continue_here-}
 ifs.close ();                                 // close ifstream 
@@ -508,8 +508,8 @@ ofstream  ofs;                                // create ofstream object
 
 ofs.open ( ofs_file_name.c_str() );           // open ofstream 
 if (!ofs) {
-	cerr << "\nERROR : failed to open output file " << ofs_file_name << endl;
-	exit (EXIT_FAILURE);
+    cerr << "\nERROR : failed to open output file " << ofs_file_name << endl;
+    exit (EXIT_FAILURE);
 }
 <SPLIT>{-continue_here-}
 ofs.close ();                                 // close ofstream 
@@ -519,9 +519,9 @@ using namespace std;
 using namespace |?NAMESPACE|;
 == C++.namespace block xxx == map:+unb, shortcut:b ==
 namespace |?NAMESPACE| {<CURSOR>
-<SPLIT>}		// -----  end of namespace |NAMESPACE|  ----- 
+<SPLIT>}        // -----  end of namespace |NAMESPACE|  ----- 
 == C++.namespace alias == map:+na, shortcut:a ==
-namespace |?NAMESPACE_ALIAS|	= {-original_namespace_name-};
+namespace |?NAMESPACE_ALIAS| = {-original_namespace_name-};
 == ENDTEMPLATE ==
 
 == LIST: rtti == list ==
