@@ -133,10 +133,10 @@
 #include "<CURSOR>"
 §-------------------------------------------------------------------------
 == Preprocessor.define == map:pd, shortcut:d, insert ==
-#define	<CURSOR>			// 
+#define <CURSOR>            // 
 §-------------------------------------------------------------------------
 == Preprocessor.undefine == map:pu, shortcut:u, insert ==
-#undef	<CURSOR>			// 
+#undef <CURSOR>            // 
 §-------------------------------------------------------------------------
 == Preprocessor.if-endif == map:pif, shortcut:i ==
 #if  |?CONDITION:u|
@@ -171,14 +171,14 @@
 #endif   // ----- #ifndef |BASENAME|_INC  ----- 
 §-------------------------------------------------------------------------
 == Preprocessor.error == map:pe, shortcut:o ==
-#error	"<CURSOR>"			// 
+#error "<CURSOR>"           // 
 §-------------------------------------------------------------------------
 == Preprocessor.line == map:pli, shortcut:l ==
-#line	<CURSOR>			// 
+#line <CURSOR>              // 
 §-------------------------------------------------------------------------
 == Preprocessor.pragma == map:pp, shortcut:p ==
-#pragma	<CURSOR>			// 
+#pragma <CURSOR>            // 
 §-------------------------------------------------------------------------
 == Preprocessor.warning == map:pw, shortcut:w ==
-#warning	<CURSOR>			/*  */
+#warning <CURSOR>           /*  */
 §-------------------------------------------------------------------------
